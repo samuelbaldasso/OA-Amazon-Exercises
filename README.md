@@ -131,7 +131,7 @@ Output: 3 (5 + 5 + 1)
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/OA-Amazon-Exercises.git
+   git clone https://github.com/samuelbaldasso/OA-Amazon-Exercises.git
    cd OA-Amazon-Exercises
    ```
 
@@ -196,6 +196,7 @@ OA-Amazon-Exercises/
 │   ├── DSA2.java          # Largest Item Association
 │   ├── DSA3.java          # Longest Substring Without Repeating Characters
 │   └── DSA4.java          # Coin Change Problem
+| ...
 ├── out/                   # Compiled classes (generated)
 ├── .gitignore            # Git ignore rules
 ├── Java1.iml             # IntelliJ project file
@@ -232,8 +233,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For questions, suggestions, or collaboration:
 
-- **GitHub:** [@yourusername](https://github.com/yourusername)
-- **Email:** your.email@example.com
+- **GitHub:** [@samuelbaldasso](https://github.com/samuelbaldasso)
 
 ---
 
