@@ -4,19 +4,6 @@ A comprehensive collection of **Data Structures and Algorithms (DSA)** solutions
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Problems & Solutions](#problems--solutions)
-- [Getting Started](#getting-started)
-- [Running the Code](#running-the-code)
-- [Technologies](#technologies)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## 🎯 Overview
 
 This repository contains solutions to algorithmic problems commonly encountered in technical interviews and online assessments, particularly for Amazon. Each solution is implemented with:

@@ -1,12 +1,11 @@
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class DSA5 {
-    public static Collection<List<String>> returningAnagrams(String[] arr){
+    public static Collection<List<String>> returningAnagrams(String[] arr) {
         HashMap<String, List<String>> hashMap = new HashMap<>();
         char[] charArr;
 
-        for(String a : arr) {
+        for (String a : arr) {
             charArr = a.toCharArray();
             Arrays.sort(charArr);
 
@@ -14,7 +13,7 @@ public class DSA5 {
 
             sb.append(charArr);
 
-            if(!hashMap.containsKey(sb.toString())){
+            if (!hashMap.containsKey(sb.toString())) {
                 hashMap.putIfAbsent(sb.toString(), new ArrayList<>());
             }
 
@@ -24,7 +23,7 @@ public class DSA5 {
     }
 
     public static void main(String[] args) {
-        String[] arr = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
+        String[] arr = new String[] { "eat", "tea", "tan", "ate", "nat", "bat" };
         System.out.println(returningAnagrams(arr));
     }
 }
